@@ -52,3 +52,17 @@ h1 {
     width: 100px;
   }
 
+
+  #fashion {
+    border: 1px solid white;
+    padding: 300px;
+    width: 500px;
+  }
+
+  .button5:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+  .button5:hover
+  
