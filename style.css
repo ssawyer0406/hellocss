@@ -57,6 +57,8 @@ h1 {
     border: 1px solid white;
     padding: 300px;
     width: 500px;
+    text-align: center;
+      
   }
 
   .button5:hover {
@@ -64,5 +66,6 @@ h1 {
     color: white;
   }
 
-  .button5:hover
-  
+  div + p {  
+    color: green;  
+ } 
