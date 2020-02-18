@@ -29,7 +29,7 @@ p{
 
 
 
-.create{
+.fashion{
     border: thick;
     border-color: whitesmoke;
 
@@ -81,3 +81,6 @@ h1 {
     font-size:200%
     }
     
+    .h1{
+        border-style: dotted;
+    }
