@@ -1,1 +1,22 @@
 /* Add your CSS Below */
+
+table{
+    border-spacing: 25;
+    padding: 50px;
+}
+th{
+    background-color: darkgreen;
+ 
+}
+th,td{
+    padding:30 px;
+}
+
+th{
+    text-align:right;
+}
+td{
+    text-align: center;
+}
+
+
