@@ -1,22 +1,84 @@
-/* Add your CSS Below */
-
-table{
-    border-spacing: 25;
-    padding: 50px;
-}
-th{
-    background-color: darkgreen;
- 
-}
-th,td{
-    padding:30 px;
+body{
+    background-color:lightgrey; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-th{
-    text-align:right;
+div{  
+    color:Black;  
+    background-color: snow;
+    border: thick; 
+ } 
+
+li{
+    list-style:none;
+    text-align: right;
+    border-style: solid;
+    margin: 200px;
+    padding: 500px;
+    
+
 }
-td{
+
+
+
+h1 {
+    
+    padding: 200px;
+    width: 300px;
+    margin: 100px;
+    color: black;
+    border: thick;
+    border-color: blue;
+    font-family: 'Sacramento';
+    font-size: 900%;
     text-align: center;
+  
+  }
+
+
+  .fashion {
+    padding: 200px;
+    width: 300px;
+    margin: 0px;
+    text-align: right;
+    }
+  
+
+.button5:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+p{
+     font-family:monospace;
+     color:gray;
+     font-size: 200%;
+     width: 400%;
+ }
+h2{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:200%
+    }
+    
+h3{
+font-size: 400%;
+width: 400%;
+}
+.pic_container{
+    display:flex;
+    flex-wrap: wrap;
+
 }
 
+.projects{
+    width: 50%;
+    padding:30px;
+}
 
+@media(min-width: 615px) {
+    .projects{
+        width: 20%;
+    }
+}
+
+  
