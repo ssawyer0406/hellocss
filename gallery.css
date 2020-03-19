@@ -1,9 +1,13 @@
+
+/* mobile styles */
+
 /* Base Styles */
-*{
+* {
     margin:0;
     padding:0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
+
 h1{
     color: blue
 
@@ -11,7 +15,9 @@ h1{
 h2{
     text-align: center;
 }
-/* mobile styles */
+
+/* layout styles */
+
 
 .header{
     background-color: gray;
@@ -21,7 +27,21 @@ h2{
     align-items: center; /*flex property that works on the cross axis*/
 }
 
+.main{
+    margin-top:30px;
+    display: flex;
+
+    flex-direction:column;
+    align-items:center;
+
+    justify-content: space-around;
+}
+
+
+/* block styles */
+
 .header_nav_li{
+
      list-style: none;
      padding:20px;
 }
@@ -49,11 +69,9 @@ h2{
 }
 
 .image_container{
-    width: 60%;
+    width: 40%;
     max-width:150px;
 }
-
-
 
 
 
@@ -63,17 +81,19 @@ h2{
         margin-top:30px;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
     }
+
     .image_container{
-        
-        width:50%;
-        
+        width: 70%;
     }
+
 }
 
 
 /* desktop styles */
-@media (min-width: 1506px){
+@media (min-width: 758px){
+    
     .header{
         background-color: pink;
         display:flex;
@@ -81,6 +101,21 @@ h2{
         justify-content: center;/*flex property that works on the main axis*/
         align-items: center; /*flex property that works on the cross axis*/
     }
-    
+
+
+    .main{
+        margin-top:30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .image_container{
+        width: 80%;
+        max-width: 250px;
+        padding: 20px;
+        margin-top: 20px;
+        border: 1px solid black;
+    }
 
 }

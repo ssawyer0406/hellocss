@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,6 +10,7 @@
 <link rel="stylesheet" href="gallery.css">
 
 <body>
+    <!-- Header section -->
     <div class="page_container">
         <header class= "header">
             <h1 class="header-title">Gallery View</h1>
@@ -29,20 +31,53 @@
                 </ul>
             </nav>
         </header>
+
+    <!-- Gallery section -->
         <h2>Photo Gallery</h2>
+        
         <main class="main">
             
             <div class="image_container">
                 <img src="images/candy.png" alt="this is candy">
             </div>
+
             <div class="image_container">
                 <img src="images/candy.png" alt="this is candy">
             </div>
+
+            <div class="image_container">
+                <img src="images/candy.png" alt="this is candy">
+            </div>
+
+            <div class="image_container">
+                <img src="images/candy.png" alt="this is candy">
+            </div>
+
+            <div class="image_container">
+                <img src="images/candy.png" alt="this is candy">
+            </div>
+
             <div class="image_container">
                 <img src="images/candy.png" alt="this is candy">
             </div>
             </main>
+
+            <picture class="portfolio_pic">
+                <!-- for viewports bigger than 401px -->
+                <source 
+                    media="(min-width: 401px)"
+                    srcset="images/portfolio-pic-big.jpg">
+
+                <!-- for viewports smaller than 401px -->
+                <source
+                    media='(max-width: 400px)'
+                    srcset="images/portfolio-pic-small.jpg">  
+                    
+                <!-- fallback image -->
+                <img src="images/portfolio-pic-small.jpg" alt="">
+            </picture>
     </div>
+
 </body>
 
-</html>
+</html
